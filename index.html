@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ComercialCorazonDeJesus</title>
+  <link rel="stylesheet" href="css/Casa.css">
+  <link rel="icon" type="image/png"  href="img/icono.png">
+</head>
+
+<body onload="cargarModoOscuro()">
+  <header id="header">
+    <div class="hamburger">
+      <div class="_layer -top"></div>
+      <div class="_layer -mid"></div>
+      <div class="_layer -bottom"></div>
+    </div>
+    <nav class="menuppal" id="jungkook">
+      <ul>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto & Ubicacion</a></li>
+   
+        <li><button onclick="negro()" class="boton-negro" id="botoncito">&#x26c5;&#xfe0e;</button></li>
+      </ul>
+    </nav>
+    <h1 class="inicio" id="inicio">COMERCIAL CORAZÓN DE JESÚS</h1>
+    <img src="img/logo1.png" alt="logo" class="logo1" onclick="window.location.href='index.html'">
+  </header>
+  <main id="main">
+    <section class="productos">
+      <div class="container-productos">
+        <div class="imagen-producto">
+          <img src="img/pexels-huseyin-ozen-1036906-2006800.jpg" alt="Imagen del caballo" id="imagen">
+        </div>
+        <div class="texto-producto">
+          <h2 id="titulo">Alimentos Balanceados</h2>
+          <p id="p1">Contamos con Alimentos Balanceados para cualquier especie de animal, además de productos para
+            mascotas.</p>
+          <a href="productos.html" id="btn">Ver Productos</a>
+        </div>
+      </div>
+    </section>
+    <section class="productos-destacados">
+      <h2 id="titulo2">Productos Destacados</h2>
+
+      <div class="carrusel">
+        <div class="producto" id="carrusel">
+          <img src="img/avesImagen1.jpg" alt="Producto 1" class="productoImagen">
+          <h3 class="titulo3">​Aves Ponedoras Iniciador</h3>
+          <p class="p3">​Mezcla nutricional balanceada y peletizada lista para consumo directo. <br>Especialmente
+            formulada para atender los requerimientos nutricionales <br> diarios de las aves ponedoras en etapa inicial
+            de vida.</p>
+        </div>
+        <div class="producto" id="carrusel2">
+          <img src="img/caballoImagen1.jpg" alt="Producto 2" class="productoImagen">
+          <h3 class="titulo3">​Potro</h3>
+          <p class="p3">​Alimento balanceado y peletizado, especialmente formulado para atender <br> y completar los
+            requerimientos nutricionales diarios de potros.</p>
+        </div>
+        <div class="producto" id="carrusel3">
+          <img src="img/cerdoImagen1.jpg" alt="Producto 3" class="productoImagen">
+          <h3 class="titulo3">Terminador</h3>
+          <p class="p3">​Mezcla nutricional balanceada y peletizada, lista para su uso directo en <br>cerdos, en etapa
+            de engorde hasta la faena.</p>
+        </div>
+        <div class="producto" id="carrusel4">
+          <img src="img/conejoImagen1.jpg" alt="Producto 4" class="productoImagen">
+          <h3 class="titulo3">Conejos</h3>
+          <p class="p3">​La cría de conejos es otra de las opciones que tiene el granjero para <br>buscar rentabilidad
+            en su propiedad.La misma puede tener diversos fines, <br>como ser la producción de carne, pieles o venta de
+            mascotas.</p>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <footer id="footer">
+    <img src="img/logo1.png" alt="logo" class="logo2" onclick="window.location.href='index.html'">
+    <p class="pie" id="pie">&copy; Créditos: Paloma Miranda & Lorena Velázquez<br>Contacto: +595972420095</p>
+  </footer>
+  <script src="js/cerrar.js"></script>
+  <script src="js/indexymodo.js"></script>
+</body>
+
+</html>

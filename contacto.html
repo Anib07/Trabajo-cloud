@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos y Ubicacion</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+</head>
+
+<body onload="cargarModoOscuro()">
+    <header id="header">
+        <div class="hamburger">
+            <div class="_layer -top"></div>
+            <div class="_layer -mid"></div>
+            <div class="_layer -bottom"></div>
+        </div>
+        <nav class="menuppal">
+            <ul>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto & Ubicacion</a></li>
+          
+                <li><button onclick="modoo()" class="boton2-negro" id="botoncito">&#x26c5;&#xfe0e;</button></li>
+            </ul>
+        </nav>
+        <h1 class="inicio" id="inicio">Contacto & Ubicacion</h1>
+        <img src="img/logo1.png" alt="logo" class="logo1" onclick="window.location.href='index.html'">
+    </header>
+    <main id="main">
+        <div class="contacto">
+            <div class="contacto1">
+                <h1 id="titulo3">¡COMUNÍCATE CON NOSOTROS!</h1>
+                <p id="p1">Nuestro horario va de lunes a domingo, de 7:00 a 18:00hs. <br>¡Estaremos encantados de
+                    recibirlo!</p>
+            </div>
+            <div class="contacto2">
+                <div class="logo11" id="logo1">
+                    <img src="img/logologo1.png" alt="logo1" class="imagen1">
+                    <h2 class="h2" id="ubititu">Ubicación</h2>
+                    <p class="p" id="p">Al costado de la cancha del <br> Club Cordillerano Central</p>
+                </div>
+                <div class="logo12" id="logo2">
+                    <img src="img/logologo2.png" alt="logo2" class="imagen1">
+                    <h2 class="h2" id="contacTitu">Contacto</h2>
+                    <p class="p" id="p2">+595972420095</p>
+                </div>
+                <div class="logo13" id="logo3">
+                    <img src="img/logologo3.png" alt="logo3" class="imagen1">
+                    <h2 class="h2" id="serviTitu">Servicios</h2>
+                    <p class="p" id="p3">Delivery<br>PickUp</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-area" id="correo">
+            <div class="div2">
+                <h1 id="Titulo1">¿Alguna Sugerencia?</h1>
+                <input type="text" id="nombre" placeholder="Nombre" class="queja"><br><br>
+                <input type="text" id="asunto" placeholder="Asunto" class="queja"><br><br>
+            </div>
+            <div class="div1">
+                <center><textarea id="mensaje" placeholder="Escriba su mensaje aquí..."></textarea><br><br></center>
+                <center><a onclick="enviarcorreo()" class="boton1">ENVIAR CORREO</a></center>
+            </div>
+        </div>
+        <div class="location1" id="ubi">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3608.3332342001377!2d-56.838514924616206!3d-25.259373277670928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE1JzMzLjciUyA1NsKwNTAnMDkuNCJX!5e0!3m2!1ses!2spy!4v1716578779437!5m2!1ses!2spy"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+            <div class="div3">
+                <a href="https://maps.app.goo.gl/4A73orL4EaGTd13P9" class="boton2">UBICACIÓN</a><br>
+                <a href="https://wa.me/+595972420095?text=mensaje" class="boton2">CONTACTAR</a><br>
+            </div>
+            
+        </div>
+    </main>
+    <footer id="footer">
+        <img src="img/logo1.png" alt="logo" class="logo2" onclick="window.location.href='index.html'">
+        <p class="pie" id="pie">&copy; Créditos: Paloma Miranda & Lorena Velázquez<br>Contacto: +595972420095</p>
+    </footer>
+</body>
+<script src="js/contacto.js"></script>
+
+</html>
