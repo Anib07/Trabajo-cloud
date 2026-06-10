@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria 2</title>
+    <link rel="stylesheet" href="css/galeria22.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+</head>
+
+<body onload="cargarModoOscuro()">
+    <header id="header">
+        <div class="hamburger">
+            <div class="_layer -top"></div>
+            <div class="_layer -mid"></div>
+            <div class="_layer -bottom"></div>
+        </div>
+        <nav class="menuppal">
+            <ul>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto & Ubicacion</a></li>
+ 
+                <li><button onclick="modo()" class="boton2-negro" id="botoncito">&#x26c5;&#xfe0e;</button></li>
+            </ul>
+        </nav>
+        <h1 class="inicio" id="inicio">Galeria II</h1>
+        <img src="img/logo1.png" alt="logo" class="logo1" onclick="window.location.href='index.html'">
+    </header>
+    <main id="main">
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="img/pexels1.jpg" style="width:100%" class="imagen">
+                <div class="texto" id="texto1">
+                    <h2 id="h24">BOVINOS</h2>
+                    <p id="p1">La producción de bovinos con buena rentabilidad camina de la mano con la eficiencia de
+                        producción y a su vez, estas dos tienen que ver con la velocidad del giro del capital.
+                        <br>
+                        El territorio paraguayo, a pesar de tener una excelente aptitud para la cría de ganado bovino,
+                        en la mayoría de los casos no permite al productor ganadero proporcionar a sus animales vacunos
+                        todos los requerimientos nutricionales sean estos para producción de leche o para la producción
+                        de carne que necesitan diariamente.
+                        <br>
+                        Es por este motivo, que vendemos una línea completa de balanceados, concentrados y sales
+                        minerales, que dan al productor distintas soluciones nutricionales para producir con eficiencia.
+                    </p>
+                    <button onclick="window.location.href='galeria1.html'" class="btn">Ver Producto</button>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="img/pexels2.jpg" style="width:100%" class="imagen">
+                <div class="texto" id="texto2">
+                    <h2 id="h23">AVES</h2>
+                    <p id="p2">Las aves tienen regímenes dietéticos muy variables, aunque, en general, sumamente ricos
+                        en principios energéticos y proteicos, permitiendo una rápida transformación del alimento.
+                        <br>
+                        Según el tipo de alimento que ingieren, el tipo de pico que tienen o la relación entre el tamaño
+                        del cuerpo y alas pueden ser clasificadas de diferentes maneras.
+                        <br>
+                        Nuestra línea de alimentos balanceados y concentrados está dirigida a las aves de mayor interés
+                        económico, como ser las gallinas ponedoras y los pollos parrilleros en todas las etapas de su
+                        desarrollo, desde el nacimiento hasta la faena.
+                    </p>
+                    <button onclick="window.location.href='galeria1.html'" class="btn">Ver Producto</button>
+                </div>
+
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="img/pexels3.jpg" style="width:100%" class="imagen">
+                <div class="texto" id="texto3">
+                    <h2 id="h21">CERDOS</h2>
+                    <p id="p3">La carne de cerdo es uno de los productos de origen animal más consumidos a nivel
+                        mundial, al ser fuente de proteínas y grasas más saludables al consumidor, no es un alimento
+                        rico en colesterol y casi toda su carne es aprovechable.
+                        <br>
+                        Hablando en términos de aprovechamiento se puede afirmar que el cerdo es el rey de los animales
+                        en esta categoría. Es así porque 60 % de su carne se consume en fresco, y el resto se aprovecha
+                        en la elaboración de embutidos y salazones. La carne de cerdo y sus derivados son un alimento
+                        universal.
+                        <br>
+                        Es por esto, que la línea Supermix de nutrición para cerdos, cuenta con una completa lista de
+                        herramientas nutricionales, pensadas para atender los diferentes tipos de crianza según la
+                        finalidad.
+                    </p>
+                    <button onclick="window.location.href='galeria1.html'" class="btn">Ver Producto</button>
+                </div>
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="img/pexels4.jpg" style="width:100%" class="imagen">
+                <div class="texto" id="texto4">
+                    <h2 id="h22">OVINOS</h2>
+                    <p id="p4">La producción ovina en el Paraguay ha venido cobrando una especial importancia debido a
+                        sus altos índices de productividad por hectárea, tanto en cría, como en engorde y producción de
+                        lana.
+                        <br>
+                        La nutrición de esta especie, tiene la particularidad de que debe tener adecuados niveles de
+                        cobre en la ración, por lo que no es cualquier ración que puede ser utilizada en su
+                        suplementación.
+                        <br>
+                        Es por este motivo, que vendemos balanceados y una sal mineral que se adecuen a los
+                        requerimientos nutricionales de los ovinos, para completarlos y permitir al productor llegar a
+                        los máximos niveles posibles de producción.
+                    </p>
+                    <button onclick="window.location.href='galeria1.html'" class="btn">Ver Producto</button>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+    </main>
+    <footer id="footer">
+        <img src="img/logo1.png" alt="logo" class="logo2" onclick="window.location.href='index.html'">
+        <p class="pie" id="pie">&copy; Créditos: Paloma Miranda & Lorena Velázquez<br>Contacto: +595972420095</p>
+    </footer>
+    <script src="js/galeria2.js"></script>
+    <script src="js/indexymodo.js"></script>
+</body>
+
+</html>
