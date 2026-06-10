@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="css/productos2.css">
+    <link rel="icon" type="image/png"  href="img/icono.png">
+</head>
+
+<body onload="cargarModoOscuro()">
+    <header id="header">
+        <div class="hamburger">
+            <div class="_layer -top"></div>
+            <div class="_layer -mid"></div>
+            <div class="_layer -bottom"></div>
+        </div>
+        <nav class="menuppal">
+            <ul>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto & Ubicacion</a></li>
+                <li><a href="acercade.html">Desarrolladores</a></li>
+                <li><button onclick="modo()" class="boton2-negro" id="botoncito">&#x26c5;&#xfe0e;</button></li>
+            </ul>
+        </nav>
+        <h1 class="inicio" id="inicio">Productos</h1>
+        <img src="img/logo1.png" alt="logo" class="logo1" onclick="window.location.href='index.html'">
+    </header>
+    <main id="main">
+        <section class="seccion-imagen" id="fondo">
+            <div class="imagen-principal">
+                <img src="images/fondo.jpg" alt="Imagen principal">
+                <div class="texto">
+                    <h2>CATÁLOGO DE PRODUCTOS</h2>
+                    <p>Contamos con cuatro galerías, presione cualquiera de <br> las imagenes que se encuentran abajo
+                        para abrirlas.</p>
+                </div>
+                <div class="imagenes">
+                    <img src="images/avesImagen1.jpg" alt="Imagen 1" onclick="window.location.href='galeria1.html'">
+                    <img src="images/caballoImagen1.1.jpg" alt="Imagen 2" onclick="window.location.href='galeria2.html'">
+                    <img src="images/cerdoImagen1.1.jpg" alt="Imagen 3" onclick="window.location.href='galeria3.html'">
+                    <img src="images/conejo2.jpg" alt="Imagen 4" onclick="window.location.href='galeria4.html'">
+                </div>
+            </div>
+        </section>
+        	
+    </main>
+    <footer id="footer">
+        <img src="img/logo1.png" alt="logo" class="logo2" onclick="window.location.href='index.html'">
+        <p class="pie" id="pie">&copy; Créditos: Paloma Miranda & Lorena Velázquez<br>Contacto: +595972420095</p>
+    </footer>
+    <script src="js/productos.js"></script>
+    <script src="js/indexymodo.js"></script>
+</body>
+</html>
