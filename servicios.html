@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios</title>
+  <link rel="stylesheet" href="css/servicios.css">
+  <link rel="icon" type="image/png"  href="img/icono.png">
+</head>
+
+<body onload="cargarModoOscuro()">
+  <header id="header">
+    <div class="hamburger">
+      <div class="_layer -top"></div>
+      <div class="_layer -mid"></div>
+      <div class="_layer -bottom"></div>
+    </div>
+    <nav class="menuppal">
+      <ul>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto & Ubicacion</a></li>
+        <li><a href="acercade.html">Desarrolladores</a></li>
+        <li><button onclick="modo()" class="boton2-negro" id="botoncito">&#x26c5;&#xfe0e;</button></li>
+      </ul>
+    </nav>
+    <h1 class="inicio" id="inicio">Servicios</h1>
+    <img src="img/logo1.png" alt="logo" class="logo1" onclick="window.location.href='index.html'">
+  </header>
+
+  <main id="main">
+    <div class="container" id="negro">
+      <div class="photo">
+        <img src="img/imagen1Servicio.jpg" alt="Fotografía 1">
+        <div class="description">
+          <h2 id="txt1">Delivery</h2>
+          <p id="txt2">Brindamos un servicio de delivery sin costo, el cual llega a cada compañía de Caraguatay, servicio disponible a solo una llamada de usted.</p>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="img/imagen2Servicio.jpg" alt="Fotografía 2">
+        <div class="description">
+          <h2 id="txt3">Retiro del local</h2>
+          <p id="txt4">Comuniquese con nosotros y realice su pedido, el cuál lo estará esperando para que lo retire el día y la hora que indique.</p>
+        </div>
+      </div>
+      <br>
+      <br>
+    </div>
+
+    <section class="productos-destacados">
+      <h2 id="titulo2" >Galería de Servicios</h2>
+
+      <div class="carrusel" id="div">
+        <div class="producto" id="carrusel">
+          <img src="img/servicio1.jpg" alt="Producto 1" class="productoImagen">
+          
+        </div>
+        <div class="producto" id="carrusel2">
+          <img src="img/servicio2.jpg" alt="Producto 2" class="productoImagen">
+         
+        </div>
+        <div class="producto" id="carrusel3">
+          <img src="img/servicio3.jpg" alt="Producto 3" class="productoImagen">
+          
+        </div>
+        <div class="producto" id="carrusel4">
+          <img src="img/servicio4.jpg" alt="Producto 4" class="productoImagen">
+          
+        </div>
+      </div>
+    </section><br><br>
+    
+  </main>
+  <footer id="footer">
+    <img src="img/logo1.png" alt="logo" class="logo2" onclick="window.location.href='index.html'">
+    <p class="pie" id="pie">&copy; Créditos: Paloma Miranda & Lorena Velázquez<br>Contacto: +595972420095</p>
+  </footer>
+  <script src="js/servicios.js"></script>
+</body>
+
+</html>
