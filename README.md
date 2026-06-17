@@ -43,6 +43,14 @@ El objetivo principal es ofrecer una plataforma informativa y visual que facilit
 3. Ejecutar el archivo `index.html` en un navegador web.
 4. También puede utilizar la extensión **Live Server** de Visual Studio Code para visualizar el sitio de forma local.
 
+## 🚀 Ejecución con Docker
+
+Para construir las imágenes y levantar los contenedores en segundo plano, ejecuta:
+
+docker compose up -d --build
+
+Pero, en todo caso, se dejo un deploy.bat para poder trabajar con git+docker a la vez.
+
 ## Estado del Proyecto
 
 Proyecto académico en desarrollo.
