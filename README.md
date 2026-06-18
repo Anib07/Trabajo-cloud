@@ -55,6 +55,8 @@ Pero, en todo caso, se dejo un deploy.bat para poder trabajar con git+docker a l
 
 Link del tablero Trello/Jira
 https://trello.com/invite/b/6a28823845adc7fc27b8b993/ATTI2f5420da20c7e265ed6ca9cd63fe65f932BF5290/cloud-computing
+
+
 Link del despliegue
 tpcloud.great-site.net 
 
