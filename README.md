@@ -16,13 +16,15 @@ El objetivo principal es ofrecer una plataforma informativa y visual que facilit
 * Diseño organizado para facilitar la navegación del usuario.
 
 ## Tareas Realizadas
-
 * Creación del menú principal de navegación.
 * Implementación de tarjetas de acceso a cada galería.
 * Desarrollo de la Galería 1 correspondiente al catálogo de productos.
 * Desarrollo de la Galería 2 con información de los animales.
 * Desarrollo de las Galerías 3 y 4 destinadas a la exposición de imágenes de animales.
 * Organización de la estructura general del sitio web.
+* Contenerización con Docker.
+* Automatización de despliegue y ejecución.
+* Rama principal y ramas por integrante.
 
 ## Integrantes
 
@@ -51,7 +53,7 @@ docker compose up -d --build
 
 Pero, en todo caso, se dejo un deploy.bat para poder trabajar con git+docker a la vez.
 
-## Link de todos
+## Links
 
 Link del tablero Trello/Jira:
 https://trello.com/invite/b/6a28823845adc7fc27b8b993/ATTI2f5420da20c7e265ed6ca9cd63fe65f932BF5290/cloud-computing
@@ -64,4 +66,4 @@ tpcloud.great-site.net
 
 ## Estado del Proyecto
 
-Proyecto académico en desarrollo.
+Proyecto académico finalizado.
